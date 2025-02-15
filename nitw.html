@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>NIT Warangal</title>
+    <link rel="icon" type="image/jpg" href="nitwlogo.jpg">
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        .header { display: flex; align-items: center; padding: 10px; background: #004080; color: white; justify-content: center; }
+        .logo { width: 80px; }
+        .nav { display: flex; justify-content: center; background: white; position: relative; }
+        .nav a { color: black; text-decoration: none; margin: 0 10px; transition: color 0.3s ease; font-size: 20px; position: relative; padding: 10px; }
+        .nav a:hover { color: maroon; }
+        .dropdown { position: relative; display: inline-block; }
+        .dropdown-content { display: none; position: absolute; background-color: rgba(255, 255, 255, 0.5); min-width: 160px; box-shadow: 0px 8px 16px rgba(0,0,0,0.2); z-index: 1; }
+        .dropdown-content a { color: black; padding: 10px; display: block; text-decoration: none; }
+        .dropdown-content a:hover { background-color: #f1f1f1; }
+        .dropdown:hover .dropdown-content { display: block; }
+        .social-icons img { width: 24px; height: 24px; margin-left: 10px; }
+        .multi { display: flex; justify-content: center; background: white; align-items: center; padding: 30px; }
+        .marquee { background: white; padding: 5px; border: 2px solid #004080; }
+        .slider { position: relative; max-width: 100%; overflow: hidden; }
+        .slides { display: flex; width: calc(100% * 12); animation: slide 300s linear infinite; }
+        .slides img { width: 10%; flex-shrink: 0; }
+        @keyframes slide {
+            0% { transform: translateX(0%); }
+            100% { transform: translateX(-100%); }
+        }
+        .news-events { display: flex; justify-content: space-around; padding: 20px; }
+        .polaroid { background: white; padding: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.2); text-align: center; width: 200px; margin: 10px; }
+        .polaroid img { width: 100%; height: auto; }
+        .campus-life img { width: 30%; margin: 5px; }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="social-icons">
+            <a href="https://www.facebook.com/NITWarangalOfficial/" target="_blank"><img src="facebook.png" alt="Facebook"></a>
+            <a href="https://www.youtube.com/@wsdcnitwarangal1954" target="_blank"><img src="youtube.png" alt="Youtube"></a>
+            <a href="https://www.linkedin.com/school/national-institute-of-technology-warangal/posts/?feedView=all" target="_blank"><img src="linkedin.png" alt="Linkedin"></a>
+            <a href="https://www.instagram.com/nitwarangalofficial" target="_blank"><img src="instagram3.png" alt="Instagram"></a>
+        </div>
+    </header>
+    <div class="multi">
+        <img src="nitwtel.jpg" alt="nittext">
+    </div>
+    <nav class="nav">
+        <div class="dropdown">
+            <a href="#">Home</a>
+        </div>
+        <div class="dropdown">
+            <a href="#">Institute</a>
+            <div class="dropdown-content">
+                <a href="#">About Us</a>
+                <a href="#">Vision and Mission</a>
+                <a href="#">Key Documents</a>
+                <a href="#">Institute Facilities</a>
+                <a href="#">Visiting NITW</a>
+                <a href="#">Institute Seminars</a>
+                <a href="#">Giving back</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <a href="#">Administration</a>
+            <div class="dropdown-content">
+                <a href="#">Director</a>
+                <a href="#">Faculty</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <a href="#">Academics</a>
+            <div class="dropdown-content">
+                <a href="#">Programs</a>
+                <a href="#">Admissions</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <a href="#">R&D</a>
+            <div class="dropdown-content">
+                <a href="#">Projects</a>
+                <a href="#">Publications</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <a href="#">Students</a>
+            <div class="dropdown-content">
+                <a href="#">Clubs</a>
+                <a href="#">Hostels</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <a href="#">Alumni</a>
+            <div class="dropdown-content">
+                <a href="#">Alumni Network</a>
+                <a href="#">Events</a>
+            </div>
+        </div>
+        <a href="https://g20.org/engagement-groups-2/" target="_blank"><img src="g20.png" alt="G20" width="100"></a>
+        <a href="https://amritmahotsav.nic.in/" target="_blank"><img src="azaadi.png" alt="Azaadi" width="100"></a>
+    </nav>
+    <marquee class="marquee">Notice - List of candidates provisionally shortlisted/ not-shortlisted for the Group 'A' and Group 'B'(Deputation) posts notified vide Advt.No.05/2024 dt.29.11.2024            Pattern of Examination and Indicative Syllabus for the Group 'B'&'C' posts notified on Direct Recruitment basis against Advt.No.05/2024 dated 29.11.2024</marquee>
+    <section class="slider">
+        <div class="slides">
+            <img src="slide1.jpg" alt="Campus View 1">
+            <img src="slide2.jpg" alt="Campus View 2">
+            <img src="slide3.jpg" alt="Campus View 3">
+            <img src="slide4.jpg" alt="Campus View 4">
+            <img src="slide5.jpg" alt="Campus View 5">
+            <img src="slide6.jpg" alt="Campus View 6">
+            <img src="slide7.jpg" alt="Campus View 7">
+            <img src="slide8.jpg" alt="Campus View 8">
+            <img src="slide9.jpg" alt="Campus View 9">
+            <img src="slide10.jpg" alt="Campus View 10">
+            <img src="slide1.jpg" alt="Campus View 1"> 
+            <img src="slide2.jpg" alt="Campus View 2"> 
+        </div>
+    </section>
+    <section class="news-events">
+        <div>
+            <h2>News</h2>
+            <div class="polaroid"><img src="news1.jpg" alt="News 1"><p>Recent research breakthrough</p></div>
+            <div class="polaroid"><img src="news2.jpg" alt="News 2"><p>Faculty achievements</p></div>
+        </div>
+        <div>
+            <h2>Events</h2>
+            <div class="polaroid"><img src="event1.jpg" alt="Event 1"><p>Upcoming Workshop</p></div>
+            <div class="polaroid"><img src="event2.jpg" alt="Event 2"><p>Cultural Fest</p></div>
+        </div>
+    </section>
+    <section class="campus-life">
+        <h2>Campus Life</h2>
+        <img src="campus1.jpg" alt="Student Activities">
+        <img src="campus2.jpg" alt="Hostel Life">
+        <img src="campus3.jpg" alt="Library">
+    </section>
+</body>
+</html>
